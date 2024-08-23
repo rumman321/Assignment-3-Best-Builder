@@ -24,6 +24,13 @@
       .manrope-font {
         font-family: "Manrope", sans-serif;
       }
+
+    .background{
+        background: url(./assets/bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     </style>
   </head>
   <body class="manrope-font">
@@ -448,15 +455,9 @@
           </div>
         </div>
 
-       
-         
-
-         </div> 
-
-
-
          <!-- its rokon's code -->
           <!-- <div>
+
             <div class="flex flex-col md:flex-row w-9/12 mx-auto gap-8 my-4 items-center  ">
                 <div><img class="h-44" src="./assets/img1.png" alt=""></div>
                 <div class="flex flex-col justify-start">
@@ -486,8 +487,92 @@
                     <img class="h-44" src="./assets/img2.png" alt="">
                 </div>
             </div>
-          </div> -->
-      </section>
+        </div> -->
+      
+
+        <!-- Contact section -->
+         <section class="background space-y-6">
+            <!-- title part -->
+            <div class="w-11/12 mx-auto pt-10 md:pt-24 ">
+                <div class="space-y-6 text-center">
+                  <button
+                    class="py-2 px-4 bg-[#ABEF5F33] font-bold text-balance rounded-full"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6 inline"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                      />
+                    </svg>
+                    Let’s Connect
+                  </button>
+                  <h3 class="text-4xl font-extrabold text-black">
+                    Let’s Discuss Next Project
+                  </h3>
+                  <p class="md:w-6/12 md:mx-auto">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                  </p>
+                </div>
+            </div>
+
+              <!--input part  -->
+              <div class="w-10/12 mx-auto space-y-6 pb-10 md:pb-24">
+                <div class=" grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                    <input
+                    type="text"
+                    placeholder="First Name*"
+                    class="input input-bordered input-md w-full rounded-full" />
+                    <input
+                    type="text"
+                    placeholder="Last Name*"
+                    class="input input-bordered input-md w-full rounded-full" />
+                    <input
+                    type="text"
+                    placeholder="Phone Number*"
+                    class="input input-bordered input-md w-full rounded-full" />
+                    <input
+                    type="text"
+                    placeholder="Email Number*"
+                    class="input input-bordered input-md w-full rounded-full" />
+    
+                  </div>
+                  <div>
+                    <textarea
+                    placeholder="Write your message here"
+                    class="textarea textarea-bordered textarea-lg w-full rounded-xl"></textarea>
+                  </div>
+                  <a
+                  class="btn hidden md:block pt-2 bg-[#ABEF5F] rounded-3xl text-lg font-[500] text-black font-extrabold"
+                  >Send Mail
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6 inline bg-black inline text-white rounded-full h-[30px] w-[30px] p-1"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                    />
+                  </svg>
+                </a>
+              </div>
+
+         </section>
+    
+    </section>
     </main>
     <footer class="bg-black">
 
